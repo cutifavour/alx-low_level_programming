@@ -1,5 +1,3 @@
-#include <stdlib.h>
-#include <time.h>
 #include <studio.h>
 
 /**
@@ -7,14 +5,11 @@
  *
  * Return: Always 0(Success)
  */
+
 int main(void)
-{       char c;
-	c = 'a';
-while
-	(c <= 'z') {
-	putchar(c);
-	c++;
-	}
-putchar('\n');
-return (0);
+{
+	for (i = 'a' ; i <= 'z' ; i++)
+		putchar(i);
+	putchar('\n');
+	return (0);
 }
