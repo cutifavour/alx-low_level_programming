@@ -1,3 +1,5 @@
+#include <stdlib.h>
+#include <time.h>
 #include <studio.h>
 
 /**
@@ -6,12 +8,13 @@
  * Return: Always 0(Success)
  */
 int main(void)
-
-{ char alp[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
-
-	for (i = 0; i < 2b; i++)
-	{putchar(alp[i]); }
-	putchar('\n');
-	return (0);
+{       char c;
+	c = 'a';
+while
+	(c <= 'z') {
+	putchar(c);
+	c++;
+	}
+putchar('\n');
+return (0);
 }
