@@ -1,19 +1,13 @@
 #include "main.h"
-/**
- * main - puthar project
- * description print putchar followed by a new line
- * Return: 0
- */
-int main(void)
-{
-	char c[8] = "_putchar";
-	int i = 0;
+#include "unistd.h"
 
-	while (i < 8)
-	{
-		_putchar(c[i]);
-		i++;
-	}
-	_putchar('\n');
-	return (0);
-}
+/**
+ * _ puthar writes thr character c to stdout
+ * @c: the character to print
+ *
+ * 
+ * Return: 0 on success
+ */
+int_putchar (char c)
+{
+	_putchar(write (1, &c, 1))	
